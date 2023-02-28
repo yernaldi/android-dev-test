@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="text_black_bold_18sp">
+        <item name="android:textSize">@dimen/size_18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="card_grey_radius_20dp">
+        <item name="cardCornerRadius">@dimen/size_20dp</item>
+        <item name="cardBackgroundColor">@color/grey</item>
+        <item name="cardElevation">@dimen/size_0dp</item>
+    </style>
+
+    <style name="view_clickable_borderless">
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
+    </style>
+
+    <style name="card_clickable">
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:foreground">?attr/selectableItemBackground</item>
+    </style>
+
+</resources>
